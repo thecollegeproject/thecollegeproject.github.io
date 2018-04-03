@@ -8,7 +8,7 @@
 
 	<link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="option2()">
 <div id="nav" class="nav">
 	<a href=""><img id="logo" src="" alt="Logo"></a>
 	<a href="">Home</a>
@@ -29,7 +29,23 @@
 </div>
 <div class="filler"></div>
 <div id="slideshow">
-	<input list="search2" placeholder="Search">
+	<input type="text" id="search2" onkeyup="searching()" onblur="option2()" onfocus="option1()" placeholder="Search">
+	<ul id="myul">
+		<li><a href="">Redmi 2 Prime</a></li>
+		<li><a href="">Redmi 3</a></li>
+		<li><a href="">Redmi 3 Prime</a></li>
+		<li><a href="">Redmi 3s</a></li>
+		<li><a href="">Redmi 3s Prime</a></li>
+		<li><a href="">Redmi 4</a></li>
+		<li><a href="">Redmi Note 3</a></li>
+		<li><a href="">Redmi Note 3 China</a></li>
+		<li><a href="">Redmi Note 4 </a></li>
+		<li><a href="">Redmi Note 5</a></li>
+		<li><a href="">Redmi Note 5 Pro</a></li>
+		<li><a href="">Mi A1</a></li>
+	</ul>
+	
+	<!--<input list="search2" placeholder="Search">
 	<datalist id="search2" style="color:red; font-size: 30px;">
 
 	   <option value="Redmi 2 Prime"></option>
@@ -38,7 +54,7 @@
     <option value="Redmi 3s"></option>
     <option value="Redmi 3s Prime"></option>
     <option value="Redmi 4"></option>
-	</datalist>
+	</datalist>-->
 </div>
 <div id="demo">
 <div id="imgid">
