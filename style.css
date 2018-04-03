@@ -58,7 +58,7 @@ input::-webkit-calendar-picker-indicator {
 	width: 100%;
 	justify-content: space-around;
 	align-items: center;
-	background-color: #00605f;
+	background:linear-gradient(to right, #3fb4b4,#0fbc99);
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -69,29 +69,45 @@ input::-webkit-calendar-picker-indicator {
 {
 	text-decoration: none;
 	color: white;
-	opacity: .90;
+	font-weight: 700;
+	font-size: 18px;
+	
 }
 .nav > input
 {
-	width: 50px;
+	width: 40px;
 	transition-duration: .7s;
+		outline: none;
+		border:none;
+		border-radius: 20px;
+		height: 40px;
+		background-image: url("images/searchlogo.png");
+		background-size: contain;
+		cursor: pointer;
+		
 
 }
 .nav > input:focus
 {
 	width: 300px;
+	border-radius: 0px;
+	padding-left: 20px;
 		transition-duration: .7s;
-
+		background-image:url("");
+		cursor: text;
 }
+
 #slideshow
 {
 	
 	height: 500px;
 	margin-top: 7px;
 	box-shadow: 1px 2px 6px 1px grey;
-	background:linear-gradient(to bottom right ,violet,blue);
+	background:linear-gradient(to bottom right ,#3fb4b4,blue);
 	overflow: hidden;
+	transition-duration: .7s;
 }
+
 #slideshow > input
 {
 	border: none;
@@ -139,6 +155,50 @@ input::-webkit-calendar-picker-indicator {
 	color: red;
 }
 
+#myul li a {
+  
+  margin-top: -1px; /* Prevent double borders */
+  padding-left: 16px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  display: block;
+}
+#myul li a:hover
+{
+	background: rgba(0, 0, 0, 0.1);
+	color: white;
+}
+#logo
+{
+	width:70px;
+	height:70px;
+	
+}
+	#logohover:after
+	{
+		content: 'Logo';
+		  padding: 4px 8px;
+     position: absolute;
+    left: 50px;
+     top:50px;
+     white-space: nowrap;
+     z-index: 20px;
+     background:white;
+     color: black;
+     transition-duration: .7s;
+
+	}
+#myul
+	{
+		list-style-type: none;
+  padding: 0;
+  margin: 0;
+  transition-duration: .7s;
+	}
+
 ::placeholder
 {
 	color: white;
@@ -177,8 +237,12 @@ input::-webkit-calendar-picker-indicator {
 	width: 400px;
 	border: 1px solid grey;
 	box-shadow: 1px 2px 6px 1px grey;
-
-
+	transition-duration: .5s;
+}
+#imgid > img:hover
+{
+	box-shadow: 1px 5px 15px 1px grey;
+	transition-duration: .5s;
 }
 #txtid
 {
@@ -187,8 +251,6 @@ input::-webkit-calendar-picker-indicator {
 	width: 700px;
 	color: grey;
 	}
-	
-
 #imgtxt1{
 	margin: 10px;
 	margin-top: -20px;
@@ -202,13 +264,8 @@ input::-webkit-calendar-picker-indicator {
 }
 #imgtxt1 h2,#imgtxt2 h2
 	{
-
 	color: black;
-	margin:19px;
-	margin-left: 20px;
 	}
-
-
 	#demo2
 {
 		display: flex;
@@ -238,8 +295,12 @@ input::-webkit-calendar-picker-indicator {
 	margin-right: 30px;
 	border: 1px solid grey;
 	box-shadow: 1px 2px 6px 1px grey;
-
-
+	transition-duration: .5s;
+}
+#imgid2 > img:hover
+{
+	box-shadow: 1px 5px 15px 1px grey;
+	transition-duration: .5s;
 }
 #txtid2
 {
@@ -262,41 +323,121 @@ input::-webkit-calendar-picker-indicator {
 	margin: 10px;
 	color: black;
 	}
-	#myul
-	{
-		list-style-type: none;
-  padding: 0;
-  margin: 0;
-  transition-duration: .7s;
-	}
+	
 
-#myul li a {
-  
-  margin-top: -1px; /* Prevent double borders */
-  padding-left: 16px;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  text-decoration: none;
-  font-size: 17px;
-  color: white;
-  display: block;
-}
-#myul li a:hover
+		#demo3
 {
-	background: rgba(0, 0, 0, 0.1);
-	color: white;
+		display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 1px solid  grey;
+
+	margin-top: 20px;
+	height: 600px;
+	background-color: white;
+	box-shadow: 1px 2px 6px 1px grey;
 }
-	#logohover:after
+#imgid3
+{
+		display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	height: 570px;
+	
+
+}
+#imgid3 > img
+{
+	height: 160px;
+	width: 400px;
+	margin-right: 30px;
+	border: 1px solid grey;
+	box-shadow: 1px 2px 6px 1px grey;
+	transition-duration: .5s;
+
+}
+#imgid3 > img:hover,#imgid2 > img:hover,#imgid > img:hover
+{
+	box-shadow: 1px 5px 15px 1px grey;
+	transition-duration: .5s;
+	transform: scale(1.01);
+}
+
+#txtid3
+{
+	height: 450px;
+	width: 700px;
+	color: grey
+	
+}
+	
+#imgtxt4
+{
+	margin: 10px;
+	margin-top: -50px;
+	margin-left: 0px;
+	margin-bottom: -10px;
+	margin-right: 10px;
+}
+
+#imgtxt4 h2,#imgtxt5 h2,#imgtxt6 h2
 	{
-		content: 'Logo';
-		  padding: 4px 8px;
-     position: absolute;
-    left: 50px;
-     top:50px;
-     white-space: nowrap;
-     z-index: 20px;
-     background:white;
-     color: black;
-     transition-duration: .7s;
+	margin: 10px;
+	color: black;
+	}
+	
+	#imgtxt3 h1  a,#imgtxt1 h2  a,#imgtxt2 h2  a,#imgtxt4 h2  a,#imgtxt5 h2  a,#imgtxt6 h2  a
+	{
+		text-decoration: none;
+		color: black;
+		transition-duration: .7s;
+	}
+	#imgtxt3 h1  a:hover,#imgtxt1 h2  a:hover,#imgtxt2 h2  a:hover,#imgtxt5 h2  a:hover,#imgtxt4 h2  a:hover,#imgtxt6 h2  a:hover
+	{
+		text-decoration: none;
+		color: #03af84;
+		transition-duration: .7s;
+	}
+	
+	#footer
+	{
+		display: flex;
+	height: 80px;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #00605f;
+	margin-top: 20px;
+	left: 0;
+	bottom: 0;
+	box-shadow: 1px 2px 6px 1px grey;
 
 	}
+	
+	#footer a
+	{
+		text-decoration: none;
+	color: white;
+	font-weight: 700;
+	font-size: 18px;
+	
+	}
+ #fb
+ {
+ 	background-image: url("images/fb.png");
+ 	background-size: contain;
+ 	height: 40px;
+ 	width: 40px;
+ 	border-radius: 20px;
+ 	
+ }
+#twitter
+{
+	background-image: url("images/twitter.png");
+ 	background-size: contain;
+ 	height: 40px;
+ 	width: 40px;
+ 	border-radius: 20px;
+ 	
+}
