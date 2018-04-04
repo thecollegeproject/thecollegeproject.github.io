@@ -23,13 +23,57 @@ function option1()
 	g.style.transitionDuration=".7s";
 	
 
+
 }
+
 function option2()
 {	
 	var h=document.getElementById("myul");
-	
+	var myvar=setInterval(slide,3000);
 	h.style.display="none";
 	h.style.transitionDuration=".7s";
-	
+}
 
+
+var count=0;
+/*function slide() {
+
+	if(count==0)
+	{	
+		document.getElementById("slideshow").style.backgroundImage="url(images/9.jpg)";
+		count++;
+		
+	}
+	else
+	{
+		if(count==1)
+		{	
+			document.getElementById("slideshow").style.backgroundImage="url(images/10.jpg)";
+			count++;
+		}
+		else
+		{
+			
+			document.getElementById("slideshow").style.backgroundImage="url(images/12.jpg)";
+		count=0;
+		}
+	}
+}*/
+function slide(){
+	switch(count)
+	{
+		case 0:
+		document.getElementById("slideshow").style.backgroundImage="url(images/9.jpg)";
+		break;
+		case 1:
+		document.getElementById("slideshow").style.backgroundImage="url(images/10.jpg)";
+		break;
+		case 2:
+		document.getElementById("slideshow").style.backgroundImage="url(images/12.jpg)";
+		break;
+		default:
+		document.getElementById("slideshow").style.backgroundImage="url(images/3.jpg)";
+		count=-1;
+	}
+	count++;
 }
