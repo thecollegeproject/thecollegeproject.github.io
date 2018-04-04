@@ -29,7 +29,7 @@ function option1()
 function option2()
 {	
 	var h=document.getElementById("myul");
-	var myvar=setInterval(slide,3000);
+	var myvar=setInterval(slide,5000);
 	h.style.display="none";
 	h.style.transitionDuration=".7s";
 }
