@@ -133,6 +133,7 @@ input::-webkit-calendar-picker-indicator {
 	background-image:url(images/3.jpg);
 	background-size: cover;
 	overflow: hidden;
+	transition-timing-function:ease;
 	transition-duration: 1s;
 	border:2px solid white;
 }
