@@ -78,14 +78,20 @@ input::-webkit-calendar-picker-indicator {
 	width: 40px;
 	transition-duration: .7s;
 		outline: none;
-		border:none;
+		border:1px solid white;
 		border-radius: 20px;
 		height: 40px;
 		background-image: url("images/searchlogo.png");
 		background-size: contain;
 		cursor: pointer;
+		box-shadow: 2px 2px 5px 1px darkgrey;
+
 		
 
+}
+.nav > input:hover
+{
+	box-shadow: 2px 2px 5px 1px grey;
 }
 .nav > input:focus
 {
@@ -427,17 +433,34 @@ input::-webkit-calendar-picker-indicator {
  {
  	background-image: url("images/fb.png");
  	background-size: contain;
+ 	border:1px solid white;
+ 	box-shadow: 1px 1px 2px 1px darkgrey;
  	height: 40px;
  	width: 40px;
  	border-radius: 20px;
+ 	 	 	transition-duration: .7s;
+
  	
+ }
+ #fb:hover,#twitter:hover
+ {
+ 	 	box-shadow: 1px 1px 2px 1px lightgrey;
+ 	 	transform: scale(1.04);
+ 	 	transition-duration: .7s;
+ 	 	transform: rotateY(360deg);
+
+
  }
 #twitter
 {
 	background-image: url("images/twitter.png");
  	background-size: contain;
+ 	border:2px solid white;
  	height: 40px;
  	width: 40px;
  	border-radius: 20px;
+ 	 	box-shadow: 1px 1px 2px 1px darkgrey;
+ 	 	transition-duration: .7s;
+
  	
 }
