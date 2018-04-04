@@ -95,7 +95,7 @@ input::-webkit-calendar-picker-indicator {
 		border:2px solid white;
 		border-radius: 20px;
 		height: 40px;
-		background-image: url("images/searchlogo.png");
+		background-image: url(images/searchlogo.png);
 		background-size: contain;
 		cursor: pointer;
 		box-shadow: 2px 2px 5px 1px darkgrey;
@@ -130,9 +130,10 @@ input::-webkit-calendar-picker-indicator {
 	height: 500px;
 	margin-top: 7px;
 	box-shadow: 1px 2px 6px 1px grey;
-	background:linear-gradient(to bottom right ,#3fb4b4,blue);
+	background-image:url(images/3.jpg);
+	background-size: cover;
 	overflow: hidden;
-	transition-duration: .7s;
+	transition-duration: 1s;
 	border:2px solid white;
 }
 
@@ -182,7 +183,7 @@ input::-webkit-calendar-picker-indicator {
 {
 	width: 700px;
 
-	transition-duration: .7s;
+	transition-duration: .6s;
 	transform: scale(1.24);
 }
 
@@ -367,12 +368,13 @@ input::-webkit-calendar-picker-indicator {
 	justify-content: space-around;
 	align-items: center;
 	border: 1px solid  grey;
-
+	
 	margin-top: 20px;
 	height: 600px;
 	background-color: white;
 	box-shadow: 1px 2px 6px 1px grey;
 }
+
 #imgid3
 {
 		display: flex;
