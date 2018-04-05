@@ -264,16 +264,17 @@ input::-webkit-calendar-picker-indicator {
 	justify-content: space-around;
 	align-items: center;
 	flex-direction: column;
-	height: 500px;
+	height: 44vw;
 
 	
 
 }
 #imgid > img
 {
-	height: 200px;
-	width: 400px;
+	height:16vw;
+	width: 33vw;
 	border: 2px solid white;
+	margin-left: 10px;
 	box-shadow: 1px 2px 6px 1px grey;
 	transition-duration: .5s;
 }
@@ -285,19 +286,20 @@ input::-webkit-calendar-picker-indicator {
 #txtid
 {
 	margin: 10px;
-	height: 450px;
-	width: 700px;
+	height: 36vw;
+	width: 60vw;
 	color: grey;
+	font-size: 1.3vw;	
 	}
 #imgtxt1{
-	margin: 10px;
+	margin-right: 10px;
 	margin-top: -20px;
 	margin-left: 20px;
 }
 #imgtxt2
 {
 	margin: 10px;
-	margin-top: 100px;
+	margin-top: 17vh;
 	margin-left: 20px;
 }
 #imgtxt1 h2,#imgtxt2 h2
@@ -312,7 +314,7 @@ input::-webkit-calendar-picker-indicator {
 	border: 1px solid  grey;
 
 	margin-top: 20px;
-	height: 380px;
+	height: 30vw;
 	background-color: white;
 	box-shadow: 1px 2px 6px 1px grey;
 }
@@ -322,14 +324,14 @@ input::-webkit-calendar-picker-indicator {
 	justify-content: space-around;
 	align-items: center;
 	flex-direction: column;
-	height: 300px;
+	height: 30vw;
 	
 
 }
 #imgid2 > img
 {
-	height: 300px;
-	width: 500px;
+	height: 25vw;
+	width: 40vw;
 	margin-right: 30px;
 	border: 2px solid white;
 	box-shadow: 1px 2px 6px 1px grey;
@@ -342,9 +344,10 @@ input::-webkit-calendar-picker-indicator {
 }
 #txtid2
 {
-	height: 450px;
-	width: 700px;
+	height: 34vw;
+	width: 60vw;
 	color: grey;
+	font-size: 1.4vw;	
 	}
 	
 
@@ -352,7 +355,7 @@ input::-webkit-calendar-picker-indicator {
 #imgtxt3
 {
 	margin: 10px;
-	margin-top: 70px;
+	margin-top: 50px;
 	margin-left: 20px;
 	margin-right: 10px;
 }
@@ -407,7 +410,8 @@ input::-webkit-calendar-picker-indicator {
 {
 	height: 450px;
 	width: 700px;
-	color: grey;	
+	color: grey;
+	font-size: 1.3vw;	
 }
 	
 #imgtxt4
@@ -417,6 +421,7 @@ input::-webkit-calendar-picker-indicator {
 	margin-left: 0px;
 	margin-bottom: -10px;
 	margin-right: 10px;
+	font-size: 1.3vw;
 }
 
 #imgtxt4 h2,#imgtxt5 h2,#imgtxt6 h2
