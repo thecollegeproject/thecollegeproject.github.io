@@ -29,13 +29,13 @@ function option1()
 function option2()
 {	
 	var h=document.getElementById("myul");
-	var myvar=setInterval(slide,5000);
 	h.style.display="none";
 	h.style.transitionDuration=".7s";
 }
 
 
 var count=0;
+var myvar=setInterval(slide,4000);
 /*function slide() {
 
 	if(count==0)
