@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>How2</title>
+	<title>Sign In</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 
@@ -15,9 +15,9 @@
 	<a id="tg1" class="drop" href="index.html">Home</a>
 	<a id="tg2" class="drop" href="">News</a>
 	<a id="tg3" class="drop" href="">Forum</a>
-	<a id="tg4" class="drop" href="">Login</a>
-	<a id="tg5" class="drop" href="">Sign Up</a>
-	<a id="tg6" class="drop" href="">About Us</a>
+	<a id="tg4" class="drop" onclick="signin()">Login</a>
+	<a id="tg5" class="drop"  onclick="signup()">Sign Up</a>
+	<a id="tg6" class="drop" >About Us</a>
 	<input list="search" placeholder="" title="Search">
 	<datalist id="search">
 	   <option ><i>Redmi 2 Prime</i></option>
@@ -25,38 +25,59 @@
     <option value="Redmi 3 Prime"></option>
     <option value="Redmi 3s"></option>
     <option value="Redmi 3s Prime"></option>
-    <option value="Redmi 4"me
-News
-Forum
-Login
-Sign Up
-About Us
-￼
-Sing In
-Sing Up
-></option>
+    <option value="Redmi 4"></option>
 	</datalist>
 </div>
 <div class="filler"></div>
 
-<div class="container flex sign">
-	<div class="container">
-	<div class="topsign flex2 c"><a href="">Sign In</a><a href=""> Sign Up</a></div>
-	<div class="signbox ">
-		<img src="http://thecollegeproject.github.io/
-			  images/login.png" alt="login">
-		<input type="text" required placeholder="Username" autofocus>
-		<input type="password" placeholder="password" required>
-		<input type="submit" value="Login">
-		
-	</div>
-	</div>
-</div>
+
 <div class="hide3"><input type="text">
 <input type="email">
 <input type="password">
 <input type="password">
 <input type="submit"></div>
+
+<div id="dlo" class="flex" style="background:linear-gradient(to right,#e5f2ff,#d6ffe2);height: 589px;margin-bottom: -10px;margin-top: 16px;">
+<div  class="container flex sign">
+	<div class="flex2 inup">
+		<button id="sibtn" onclick="signin()">Sign In</button>
+		<button id="subtn" onclick="signup()">Sign Up</button>
+	</div>
+	<div id="loginimg"></div>
+	
+	<input type="text" autofocus placeholder="Username">
+	<input type="password" placeholder="Password">
+	<input type="submit" value="Login">
+
+</div>
+</div>
+<div id="hsi" class="hide3">
+	<div  class="container flex sign">
+	<div class="flex2 inup">
+		<button id="sibtn" onclick="signin()">Sign In</button>
+		<button id="subtn" onclick="signup()">Sign Up</button>
+	</div>
+	<div id="loginimg"></div>
+	
+	<input type="text" autofocus placeholder="Username">
+	<input type="password" placeholder="Password">
+	<input type="submit" value="Login">
+
+</div>
+</div>
+<div id="hsu" class="hide3">
+	<div  class="container flex sign2">
+	<div class="flex2 inup">
+		<button id="sibtn" onclick="signin()">Sign In</button>
+		<button id="subtn" onclick="signup()">Sign Up</button>
+	</div>
+	<div id="loginimg"></div>
+	<input type="text" autofocus placeholder="Username">
+	<input type="email" placeholder="Email">
+	<input type="password" placeholder="Password">
+	<input type="submit" value="Signup">
+</div>
+</div>
 
 
 
