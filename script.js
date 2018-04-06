@@ -37,7 +37,6 @@ function option2()
 var count=0;
 var myvar=setInterval(slide,4000);
 /*function slide() {
-
 	if(count==0)
 	{	
 		document.getElementById("slideshow").style.backgroundImage="url(images/9.jpg)";
@@ -76,4 +75,37 @@ function slide(){
 		count=-1;
 	}
 	count++;
+}
+
+var count2=0;
+function togglemenu()
+{	
+
+	if(count2%2!=0)
+	{
+		document.getElementById("tg").className="drop";
+	document.getElementById("tg1").className="drop";
+	document.getElementById("tg2").className="drop";
+	document.getElementById("tg3").className="drop";
+	document.getElementById("tg4").className="drop";
+	document.getElementById("tg5").className="drop";
+	document.getElementById("tg6").className="drop";
+	
+	
+	document.getElementById("nav").style.height="14vh";
+
+	}
+	else
+	{
+		document.getElementById("tg").className="drop1";
+	document.getElementById("tg1").className="drop1";
+	document.getElementById("tg2").className="drop1";
+	document.getElementById("tg3").className="drop1";
+	document.getElementById("tg4").className="drop1";
+	document.getElementById("tg5").className="drop1";
+	document.getElementById("tg6").className="drop1";
+	document.getElementById("nav").style.height="58vh";
+	}
+	count2++;
+	
 }
