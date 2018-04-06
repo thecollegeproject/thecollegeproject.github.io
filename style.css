@@ -54,7 +54,7 @@ input::-webkit-calendar-picker-indicator {
 .nav
 {
 	display: flex;
-	height: 11.5vh;
+	height: 12.3vh;
 	width: 100%;
 	justify-content: space-around;
 	align-items: center;
@@ -638,19 +638,20 @@ input::-webkit-calendar-picker-indicator {
 {
 	text-decoration: none;
 	color: white;
-	padding-top: 3.65vh;
-	padding-bottom: 3.65vh;
-	padding-left: 10vh;
-	padding-right: 11.5vh;
+	padding-top: 3.6vh;
+	padding-bottom: 3.6vh;
+	padding-left: 9.7vh;
+	padding-right: 11vh;
 	background-color: red;
 }
 .topsign > a{
 	text-decoration: none;
 	color: white;
-	padding-top: 3.65vh;
-	padding-bottom: 3.65vh;
-	padding-left: 11.5vh;
-	padding-right: 10vh;
+
+	padding-top: 3.6vh;
+	padding-bottom: 3.6vh;
+	padding-left: 11vh;
+	padding-right: 9.7vh;
 	background-color: blue;
 }
 .signbox
@@ -669,4 +670,11 @@ input::-webkit-calendar-picker-indicator {
 	margin-bottom: 2vh; 
 	width: 33vh;
 	height: 4vh; 
+}
+
+.signbox > img
+{
+	height: 90px;
+	width: 105px;
+	margin-bottom: 20px;
 }
