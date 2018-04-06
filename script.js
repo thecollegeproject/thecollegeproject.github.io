@@ -92,7 +92,7 @@ function togglemenu()
 	document.getElementById("tg6").className="drop";
 	
 	
-	document.getElementById("nav").style.height="14vh";
+	document.getElementById("nav").style.height="90px";
 
 	}
 	else
@@ -104,8 +104,17 @@ function togglemenu()
 	document.getElementById("tg4").className="drop1";
 	document.getElementById("tg5").className="drop1";
 	document.getElementById("tg6").className="drop1";
-	document.getElementById("nav").style.height="58vh";
+	document.getElementById("nav").style.height="330px";
 	}
 	count2++;
 	
+}
+var de=document.getElementById("hsu").innerHTML;
+var de2=document.getElementById("hsi").innerHTML;
+
+function signup(){
+document.getElementById("dlo").innerHTML=document.getElementById("hsu").innerHTML;
+}
+function signin(){
+document.getElementById("dlo").innerHTML=document.getElementById("hsi").innerHTML;
 }
