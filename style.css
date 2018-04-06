@@ -65,16 +65,33 @@ input::-webkit-calendar-picker-indicator {
 	box-shadow: 1px 2px 6px 1px grey;
 
 }
-.nav > a
+.drop
 {
 	text-decoration: none;
 	color: white;
 	font-weight: 700;
 	font-size: 18px;
 	transition-duration: .5s;
+	cursor: pointer;
 	
 }
-.nav > a:hover
+.drop:hover
+{
+	color: #96ffe6;
+		transition-duration: .5s;
+
+}
+.drop1
+{
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	font-size: 18px;
+	transition-duration: .5s;
+	cursor: pointer;
+	
+}
+.drop1:hover
 {
 	color: #96ffe6;
 		transition-duration: .5s;
@@ -86,6 +103,7 @@ input::-webkit-calendar-picker-indicator {
 	background-size: contain;
 	height: 40px;
 	width: 40px;
+	cursor: pointer;
 }
 .nav > input
 {
@@ -143,14 +161,14 @@ input::-webkit-calendar-picker-indicator {
 	border: none;
 	background: transparent;
 	border-bottom: 2px solid white;
-	width: 500px;
-	height: 50px;
+	width: 51vw;
+	height: 51px;
 	outline: none;
 	font-size: 30px;
 	color: white;
 	transition-duration: .7s;
 	padding: 20px;
-	margin-left: 350px;
+	margin-left: 21vw;
 	margin-top: 220px;
 	z-index: 10;
 	overflow: hidden;
@@ -158,9 +176,9 @@ input::-webkit-calendar-picker-indicator {
 }
 #slideshow img
 {
-	height: 58px;
+	height: 4.7vw;
 	border-bottom: none;
-	width: 50px;
+	width: 4vw;
 	padding-bottom: 5px;
 	margin-bottom: -15px;
 	
@@ -176,13 +194,13 @@ input::-webkit-calendar-picker-indicator {
 	color: white;
 	transition-duration: .7s;
 	padding-top: 14px;
-	margin-left: 250px;
+	margin-left: 15vw;
 	z-index: 10;
 	overflow: hidden;
 }
 #slideshow  input:focus
 {
-	width: 700px;
+	width: 60vw;
 
 	transition-duration: .6s;
 	transform: scale(1.24);
@@ -215,6 +233,17 @@ input::-webkit-calendar-picker-indicator {
 	height:70px;
 	
 }
+#logo1
+{
+	width:40px;
+	height:40px;
+	
+}
+#hide
+{
+	display: none;
+}
+
 	#logohover:after
 	{
 		content: 'Logo';
@@ -292,15 +321,15 @@ input::-webkit-calendar-picker-indicator {
 	font-size: 1.3vw;	
 	}
 #imgtxt1{
-	margin-right: 10px;
-	margin-top: -20px;
-	margin-left: 20px;
+	margin-right: 1vw;
+	margin-top: -2vw;
+	margin-left: 2vw;
 }
 #imgtxt2
 {
-	margin: 10px;
+	margin: 1vw;
 	margin-top: 17vh;
-	margin-left: 20px;
+	margin-left: 2vw;
 }
 #imgtxt1 h2,#imgtxt2 h2
 	{
@@ -423,7 +452,7 @@ input::-webkit-calendar-picker-indicator {
 	margin: 10px;
 	margin-top: 0px;
 	margin-left: 0px;
-	margin-bottom: 30px;
+	margin-bottom: 5vw;
 	margin-right: 10px;
 	font-size: 1.3vw;
 }
@@ -513,4 +542,61 @@ input::-webkit-calendar-picker-indicator {
  	border-radius: 20px;
  	 	box-shadow: 1px 1px 2px 1px darkgrey;
  	 	transition-duration: .7s;
+}
+
+@media screen and (max-width: 830px)
+{
+ #slideshow
+ {
+ 	height: 70vh;
+ 	margin-top: 5vh;
+
+ }
+  #slideshow > input
+  {
+  	
+	margin-top: 30vh;
+  }
+  .nav
+  {
+  	flex-direction: column;
+  	height: 15vh;
+  	transition-duration: .7s;
+  }
+  .drop
+  {
+  	display: none;
+  }
+
+  /*#tg,#tg1,#tg2,#tg3,#tg4,#tg5,#tg6
+  {
+  	display: none;
+  }*/
+  #hide
+  {
+  	display: inherit;
+  }
+#hide1
+  {
+  	display: none;
+  }
+
+}
+ #hide1
+  {
+  	display: none;
+  }
+.nav2
+{
+	display: flex;
+	height: 80px;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	background:linear-gradient(to right, #3fb4b4,#0fbc99);
+	position: fixed;
+	left: 0;
+	top: 0;
+	box-shadow: 1px 2px 6px 1px grey;
+
 }
