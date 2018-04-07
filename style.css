@@ -600,6 +600,7 @@ input[type="password"]::placeholder,input[type="text"]::placeholder,input[type="
   #hide
   {
   	display: inherit;
+  	cursor: pointer;
   }
 #hide1
   {
@@ -747,3 +748,12 @@ cursor: pointer;
 	box-shadow: 1px 2px 6px 1px grey;
 	margin-bottom: 20px;
 }
+.formflex
+{
+	height: 270px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
