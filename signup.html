@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign In</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body onload="option2(),slidestop(),togglemenu()">
+<div id="nav" class="nav">
+	<a id="hide" onclick="togglemenu()"><img id="logo1" src="images/three.png" alt="Logo"></a>
+	<a id="tg" class="drop" href=""><img id="logo" src="images/mainlogo5.png" alt="Logo"></a>
+	<a id="tg1" class="drop" href="index.html" onclick="colormenu(this)">Home</a>
+	<a id="tg2" class="drop" href="" onclick="colormenu(this)">News</a>
+	<a id="tg3" class="drop" href="" onclick="colormenu(this)">Forum</a>
+	<a id="tg4" href="#" class="drop" onclick="signin(),colormenu(this)">Sign In</a>
+	<a id="tg5" class="drop" href="#"  onclick="signup(),colormenu(this)"  style="color: #00ffcb">Sign Up</a>
+	<a id="tg6" class="drop" onclick="colormenu(this)">About Us</a>
+	<input list="search" placeholder="" title="Search">
+	<datalist id="search">
+	   <option ><i>Redmi 2 Prime</i></option>
+    <option value="Redmi 3"></option>
+    <option value="Redmi 3 Prime"></option>
+    <option value="Redmi 3s"></option>
+    <option value="Redmi 3s Prime"></option>
+    <option value="Redmi 4"></option>
+	</datalist>
+</div>
+<div class="filler"></div>
+
+
+<div class="hide3"><input type="text">
+<input type="email">
+<input type="password">
+<input type="password">
+<input type="submit"></div>
+
+<div id="dlo" class="flex" style="background:linear-gradient(to right,#e5f2ff,#d6ffe2);height: 589px;margin-bottom: -10px;margin-top: 16px;">
+<div  class="container flex sign2">
+	<div class="flex2 inup">
+		<button id="sibtn" onclick="signin()">Sign In</button>
+		<button id="subtn" onclick="signup()">Sign Up</button>
+	</div>
+	<div id="loginimg"></div>
+	<form action="" class="formflex">
+	<input type="text" autofocus placeholder="Username">
+	<input type="email" placeholder="Email">
+	<input type="password" placeholder="Password">
+	<input type="submit" value="Signup">
+	</form>
+</div>
+</div>
+<div id="hsi" class="hide3">
+	<div  class="container flex sign">
+	<div class="flex2 inup">
+		<button id="sibtn" onclick="signin()">Sign In</button>
+		<button id="subtn" onclick="signup()">Sign Up</button>
+	</div>
+
+	<div id="loginimg"></div>
+	<form action="" class="formflex">	
+	<input type="text" autofocus placeholder="Username">
+	<input type="password" placeholder="Password">
+	<input type="submit" value="Sign In">
+	</form>
+</div>
+</div>
+<div id="hsu" class="hide3">
+	<div  class="container flex sign2">
+	<div class="flex2 inup">
+		<button id="sibtn" onclick="signin()">Sign In</button>
+		<button id="subtn" onclick="signup()">Sign Up</button>
+	</div>
+	<div id="loginimg"></div>
+	<form action="" class="formflex">
+	<input type="text" autofocus placeholder="Username">
+	<input type="email" placeholder="Email">
+	<input type="password" placeholder="Password">
+	<input type="submit" value="Signup">
+	</form>
+</div>
+</div>
+
+
+
+
+
+<div id="footer">
+	<a href="">Contact Us</a>
+	<a href="">About Us</a>
+	<a href="">Home</a>
+	<a href="" id="fb" title="Facebook Page"></a>
+	<a href="" id="twitter" title="Twitter Handle"></a>
+	<a href="" id="github" title="Github"></a>
+</div>
+
+
+</body>
+</html>
