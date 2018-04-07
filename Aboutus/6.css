@@ -54,7 +54,7 @@ input::-webkit-calendar-picker-indicator {
 .nav
 {
 	display: flex;
-	height: 80px;
+	height: 13%;
 	width: 100%;
 	justify-content: space-around;
 	align-items: center;
@@ -65,27 +65,70 @@ input::-webkit-calendar-picker-indicator {
 	box-shadow: 1px 2px 6px 1px grey;
 
 }
-.nav > a
+.drop
 {
 	text-decoration: none;
 	color: white;
 	font-weight: 700;
 	font-size: 18px;
+	transition-duration: .5s;
+	cursor: pointer;
 	
+}
+.drop:hover
+{
+	color: #96ffe6;
+		transition-duration: .5s;
+
+}
+.drop1
+{
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	font-size: 18px;
+	transition-duration: .5s;
+	cursor: pointer;
+	
+}
+.drop1:hover
+{
+	color: #96ffe6;
+		transition-duration: .5s;
+
+}
+.homeicon
+{
+	background-image: url(images/home.png);
+	background-size: contain;
+	height: 40px;
+	width: 40px;
+	cursor: pointer;
 }
 .nav > input
 {
 	width: 40px;
 	transition-duration: .7s;
 		outline: none;
-		border:none;
+		border:2px solid white;
 		border-radius: 20px;
 		height: 40px;
-		background-image: url("images/searchlogo.png");
+		background-image: url(images/searchlogo.png);
 		background-size: contain;
 		cursor: pointer;
+		box-shadow: 2px 2px 5px 1px darkgrey;
+	box-shadow: 2px 1px 5px 1px grey;
+	color: transparent;
+	transform: rotate(13deg) ;
+	transition-duration: .34s;
 		
 
+}
+.nav > input:hover
+{
+	box-shadow: 2px 4px 5px 1px grey;
+	transform: rotate(-13deg) scale(1.09);
+	transition-duration: .4s;
 }
 .nav > input:focus
 {
@@ -95,9 +138,10 @@ input::-webkit-calendar-picker-indicator {
 		transition-duration: .7s;
 		background-image:url("");
 		cursor: text;
+		color: black;
+		transform: rotate(0deg) scale(1);
 }
-
-#slideshow
+/*#slideshow
 {
 	display: flex;
 	justify-content: center;
@@ -117,17 +161,56 @@ input::-webkit-calendar-picker-indicator {
 	font-size: 30px;
 	color: white;
 
+}*/
+.filler
+{
+	height:73px;
+	width: 100%;
+	background-color:black;
 }
-#demo2
+
+#logo
+{
+	width:70px;
+	height:70px;
+	
+}
+#logo1
+{
+	width:40px;
+	height:40px;
+	
+}
+#hide
+{
+	display: none;
+}
+
+	#logohover:after
+	{
+		content: 'Logo';
+		  padding: 4px 8px;
+     position: absolute;
+    left: 50px;
+     top:50px;
+     white-space: nowrap;
+     z-index: 20px;
+     background:white;
+     color: black;
+     transition-duration: .7s;
+
+	}
+
+#dibba2
 {
 		display: flex;
 	justify-content: space-around;
 	align-items: center;
-	border: 2px solid  black;
+	border: 2px solid  grey;
 	margin-top: 20px;
 	box-shadow: 1px 2px 6px 1px grey;
 }
-#imgid2
+#imageid2
 {
 		display: flex;
 	justify-content: space-around;
@@ -138,17 +221,28 @@ input::-webkit-calendar-picker-indicator {
 	
 
 }
-#imgid2 > img
+#imageid2 > img
 {
 
 	height: 200px;
 	width: 400px;
-	border: 1px solid grey;
+	border: 1px solid white;
 	box-shadow: 1px 2px 6px 1px grey;
 
 
 }
-#txtid2
+#imageid2 > img:hover
+{
+
+	height: 200px;
+	width: 400px;
+	border: 1px solid white;
+	box-shadow: 2px 6px 9px 2px grey;
+	transition: 0.5s;
+
+
+}
+#textid2
 {
 	display: flex;
 	justify-content: space-around;
@@ -160,44 +254,75 @@ input::-webkit-calendar-picker-indicator {
 	box-shadow: 1px 2px 6px 1px grey;
 	padding: 40px;
 }
+#textid2:hover
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 450px;
+	width: 700px;
+	background-color: white;
+	color: black;
+	box-shadow: 2px 6px 9px 2px grey;
+	padding: 40px;
+}
 ::placeholder
 {
 	color: white;
 }
-.filler
-{
-	height:75px;
-	width: 100%;
-	background-color:black;
-}
+
 #about{
 	background: lightgreen;
 	margin-top: 0px;
+	margin-bottom: 20px;
 	padding-top: 20px;
 	margin-right: -90px;
 	margin-left: -59px;
-height: 100px;
+    height: 100px;
+    box-shadow: 2px 6px 9px 2px grey;
 }
 
 #welcome{
-	background: darkgrey;
-	margin-top: 0px;
+	background: white;
+	margin-top: 1px;
 	padding-top: 20px;
-	margin-right: -50px;
-	margin-left: -20px;
-	height: 100vh;
+	margin-right: -6px;
+	margin-left: -6px;
+	height: 120vh;
+	
+	box-shadow: 1px 5px 15px 2px grey;
+	transition-duration: .5s;
+}
+#mypic{
+	border-radius: 50%;
+	box-shadow: 1px 2px 6px 1px grey;
+	transition-duration: .5s;
+	border: 1px solid grey;
+}
+#mypic:hover{
+	border-radius: 50%;
+    box-shadow: 2px 4px 5px 3px grey;
+	transition-duration: .5s;
+	border: 2px solid grey;
+	transition: 0.5s;
+}
+#textid1:{
+	color: grey;
+}
+#textid1:hover{
+	color: green;
 }
 
-#demo3
+#dibba3
 {
 		display: flex;
 	justify-content: space-around;
 	align-items: center;
-	border: 2px solid  black;
+	border: 2px solid  grey;
 	margin-top: 20px;
 	box-shadow: 1px 2px 6px 1px grey;
 }
-#imgid3
+#imageid3
 {
 		display: flex;
 	justify-content: space-around;
@@ -208,38 +333,70 @@ height: 100px;
 	
 
 }
-#imgid3 > img
+#imageid3 > img
+{
+
+	height: 450px;
+	width: 700px;
+	margin-left: 20px;
+	margin-right: 10px;
+	border: 1px solid grey;
+	box-shadow: 1px 2px 6px 1apx grey;
+	transition: 0.5s;
+
+
+}
+#imageid3 > img:hover
 {
 
 	height: 450px;
 	width: 900px;
+	margin-left: 10px;
+	margin-right: 10px;
 	border: 1px solid grey;
-	box-shadow: 1px 2px 6px 1px grey;
+	box-shadow: 2px 6px 9px 2px grey;
+	transition: 0.5s;
 
 
 }
-#txtid3
+#textid3
 {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	height: 450px;
-	padding: 20px;
+	padding: 10px;
 	background-color: white;
 	color: black;
 	box-shadow: 1px 2px 6px 1px grey;
+    border: 2px solid grey;
+    margin-left: 10px;
+    transition: 0.5s;
+}   
+
+#textid3:hover
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 450px;
+	padding: 10px;
+	background-color: white;
+	color: black;
+	box-shadow: 2px 6px 9px 2px grey;
+    border: 2px solid grey;
+    margin-left: 10px;
+    transition: 0.5s;
+}   
 	
-	margin-left: 30px;
-}
+	
 #foot{
 	height: 200px;
 	background: black;
 	color: white;
 }
 
-#pic{
-	border-radius: 50%;
-}
+
 #logo
 {
 	width:70px;
@@ -286,19 +443,69 @@ height: 100px;
 	}
  #fb
  {
- 	background-image: url("fb.png");
+ 	background-image: url("images/fb.png");
  	background-size: contain;
+ 	border:1px solid white;
+ 	box-shadow: 1px 1px 2px 1px darkgrey;
  	height: 40px;
  	width: 40px;
  	border-radius: 20px;
+ 	 	 	transition-duration: .7s;
+
  	
+ }
+ #fb:hover,#twitter:hover,#github:hover
+ {
+ 	 	box-shadow: 1px 1px 2px 1px lightgrey;
+ 	 	transform: scale(1.04);
+ 	 	transition-duration: .7s;
+ 	 	transform: rotateZ(30deg);
+
+
  }
 #twitter
 {
-	background-image: url("twitter.png");
+	background-image: url("images/twitter.png");
  	background-size: contain;
+ 	border:2px solid white;
  	height: 40px;
  	width: 40px;
  	border-radius: 20px;
- 	
+ 	 	box-shadow: 1px 1px 2px 1px darkgrey;
+ 	 	transition-duration: .7s;
 }
+#github
+{
+	background-image: url("images/github.jpg");
+ 	background-size: contain;
+ 	border:2px solid white;
+ 	height: 40px;
+ 	width: 40px;
+ 	border-radius: 20px;
+ 	 	box-shadow: 1px 1px 2px 1px darkgrey;
+ 	 	transition-duration: .7s;
+}
+
+@media screen and (max-width: 830px)
+{
+ #slideshow
+ {
+ 	height: 70vh;
+ 	margin-top: 5vh;
+
+ }
+  #slideshow > input
+  {
+  	
+	margin-top: 30vh;
+  }
+  .nav
+  {
+  	flex-direction: column;
+  	height: 90px;
+  	transition-duration: .7s;
+  }
+  .drop
+  {
+  	display: none;
+  }
