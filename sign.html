@@ -12,12 +12,12 @@
 <div id="nav" class="nav">
 	<a id="hide" onclick="togglemenu()"><img id="logo1" src="images/three.png" alt="Logo"></a>
 	<a id="tg" class="drop" href=""><img id="logo" src="images/mainlogo5.png" alt="Logo"></a>
-	<a id="tg1" class="drop" href="index.html">Home</a>
-	<a id="tg2" class="drop" href="">News</a>
-	<a id="tg3" class="drop" href="">Forum</a>
-	<a id="tg4" class="drop" onclick="signin()">Login</a>
-	<a id="tg5" class="drop"  onclick="signup()">Sign Up</a>
-	<a id="tg6" class="drop" >About Us</a>
+	<a id="tg1" class="drop" href="index.html" onclick="colormenu(this)">Home</a>
+	<a id="tg2" class="drop" href="" onclick="colormenu(this)">News</a>
+	<a id="tg3" class="drop" href="" onclick="colormenu(this)">Forum</a>
+	<a id="tg4" href="#" class="drop" onclick="signin(),colormenu(this)" style="color: #00ffcb">Sign In</a>
+	<a id="tg5" class="drop" href="#"  onclick="signup(),colormenu(this)">Sign Up</a>
+	<a id="tg6" class="drop" onclick="colormenu(this)">About Us</a>
 	<input list="search" placeholder="" title="Search">
 	<datalist id="search">
 	   <option ><i>Redmi 2 Prime</i></option>
@@ -44,11 +44,11 @@
 		<button id="subtn" onclick="signup()">Sign Up</button>
 	</div>
 	<div id="loginimg"></div>
-	
+	<form action="" class="formflex">
 	<input type="text" autofocus placeholder="Username">
 	<input type="password" placeholder="Password">
-	<input type="submit" value="Login">
-
+	<input type="submit" value="Sign In">
+	</form>
 </div>
 </div>
 <div id="hsi" class="hide3">
@@ -57,12 +57,13 @@
 		<button id="sibtn" onclick="signin()">Sign In</button>
 		<button id="subtn" onclick="signup()">Sign Up</button>
 	</div>
+
 	<div id="loginimg"></div>
-	
+	<form action="" class="formflex">	
 	<input type="text" autofocus placeholder="Username">
 	<input type="password" placeholder="Password">
-	<input type="submit" value="Login">
-
+	<input type="submit" value="Sign In">
+	</form>
 </div>
 </div>
 <div id="hsu" class="hide3">
@@ -72,10 +73,12 @@
 		<button id="subtn" onclick="signup()">Sign Up</button>
 	</div>
 	<div id="loginimg"></div>
+	<form action="" class="formflex">
 	<input type="text" autofocus placeholder="Username">
 	<input type="email" placeholder="Email">
 	<input type="password" placeholder="Password">
 	<input type="submit" value="Signup">
+	</form>
 </div>
 </div>
 
