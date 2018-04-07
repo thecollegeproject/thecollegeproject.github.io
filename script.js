@@ -80,7 +80,7 @@ function slide(){
 var count2=0;
 function togglemenu()
 {	
-
+	
 	if(count2%2!=0)
 	{
 		document.getElementById("tg").className="drop";
@@ -107,6 +107,7 @@ function togglemenu()
 	document.getElementById("nav").style.height="330px";
 	}
 	count2++;
+
 	
 }
 var de=document.getElementById("hsu").innerHTML;
@@ -117,4 +118,19 @@ document.getElementById("dlo").innerHTML=document.getElementById("hsu").innerHTM
 }
 function signin(){
 document.getElementById("dlo").innerHTML=document.getElementById("hsi").innerHTML;
+}
+
+function colormenu(e)
+{
+
+	e.style.color="#00ffcb";
+	switch(e.id)
+	{
+		case "tg4":
+		document.getElementById("tg5").style.color="white";
+		break;
+		case "tg5":
+		document.getElementById("tg4").style.color="white";
+		break;
+	}
 }
