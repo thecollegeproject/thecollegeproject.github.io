@@ -93,6 +93,7 @@ function togglemenu()
 	
 	
 	document.getElementById("nav").style.height="90px";
+        document.getElementById("forumsearch").style.display="";
 
 	}
 	else
@@ -105,6 +106,8 @@ function togglemenu()
 	document.getElementById("tg5").className="drop1";
 	document.getElementById("tg6").className="drop1";
 	document.getElementById("nav").style.height="330px";
+         document.getElementById("forumsearch").style.display="none";
+
 	}
 	count2++;
 
