@@ -9,6 +9,7 @@ function searching() {
 		a=li[i].getElementsByTagName("a")[0];
 		if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
 			li[i].style.display="";
+            
 		}
 		else
 		{
@@ -19,8 +20,8 @@ function searching() {
 function option1()
 {	
 	var g=document.getElementById("myul");
-	g.style.display="";
-	g.style.transitionDuration=".7s";
+	g.style.visibility="visible";
+	g.style.transitionDuration=".1s";
 	
 
 
@@ -29,8 +30,8 @@ function option1()
 function option2()
 {	
 	var h=document.getElementById("myul");
-	h.style.display="none";
-	h.style.transitionDuration=".7s";
+	h.style.visibility="hidden";
+	h.style.transitionDuration=".1 s";
 }
 
 
@@ -93,7 +94,7 @@ function togglemenu()
 	
 	
 	document.getElementById("nav").style.height="90px";
-        document.getElementById("forumsearch").style.display="";
+       
 
 	}
 	else
@@ -106,12 +107,8 @@ function togglemenu()
 	document.getElementById("tg5").className="drop1";
 	document.getElementById("tg6").className="drop1";
 	document.getElementById("nav").style.height="330px";
-         document.getElementById("forumsearch").style.display="none";
-
 	}
 	count2++;
-
-	
 }
 var de=document.getElementById("hsu").innerHTML;
 var de2=document.getElementById("hsi").innerHTML;
