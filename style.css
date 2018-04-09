@@ -4,6 +4,42 @@
 	font-family: 'Montserrat', sans-serif
 
 }
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v36/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+    padding: 5px;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+.material-icons:hover{
+    color:aqua;
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px;
+}
+.material-icons:active{
+    background-color: black;
+    border-radius: 20px;
+    padding: 2px;
+}
+
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
@@ -62,6 +98,7 @@ input::-webkit-calendar-picker-indicator {
 	position: fixed;
 	left: 0;
 	top: 0;
+    z-index: 1;
 	box-shadow: 1px 2px 6px 1px grey;
 
 }
@@ -181,6 +218,7 @@ input::-webkit-calendar-picker-indicator {
 	width: 4vw;
 	padding-bottom: 5px;
 	margin-bottom: -15px;
+    
 	
 }
 #slideshow  ul
@@ -848,9 +886,10 @@ h1
     align-items: center;
     background-color: #fcf4ea;
     flex-direction: column;
-    width: 85%;
-   
+    width: 89%;
+  
     border-top: 20px solid #02646d;
+     font-size: 15px;
     
 }
 .forumtxt > div
@@ -858,9 +897,9 @@ h1
     text-align: left;
     padding: 16px;
     margin: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-top: 4px solid #02646d;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-top: 5px solid #02646d;
     background-color: #faf1ef;
        transition-duration: .4s;
     cursor: pointer;
@@ -905,7 +944,7 @@ h1
     border-top: 10px solid #02646d;
     background-color: #faf1ef;
     height: auto;
-       transition-duration: .4s;
+       transition-duration: .3s;
     
 }
 /*.protypetxt > div:hover
@@ -922,10 +961,11 @@ h1
 {
     color: black;
     background-color: #f0fffa;
-    transition-duration: .4s;
+    transition-duration: .3s;
     border-style: none;
-    border: 1px solid white;
-    border-top: 7px solid #004049;
+   
+    cursor: default;
+    border-top: 15px solid #004049;
 }
 .protypetxt >div:first-child
 {
@@ -941,4 +981,59 @@ h1
     text-decoration: none;
     color: #007f5d;
 }
-4
+.profile{
+    width: 86%;
+    height: 35px;
+    margin: 10px;
+}
+.profile >button
+{
+    width: 33.33%;
+    height: 100%;
+    border: 1px solid grey;
+    outline: none;
+    background-color: #ecf1cf;
+    transition-duration: .4s;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight:600;
+}
+.profile >button:hover
+{
+    background-color:#00808a;
+    transition-duration: .4s;
+    color: white;
+}
+.profile2
+{
+    width: 86%;
+    height: auto;
+    border:1px solid black;
+    padding: 30px;
+}
+.procon
+{
+height: 900px;
+    font-size: 17px;
+    color: #666666;
+
+}
+#forumsubmit
+{
+    font-weight: 600;
+    box-shadow: 1px 1px 2px 1px lightgrey;
+  background-color: lightgoldenrodyellow;
+    border-radius: 30px;
+    transition-duration: .6s;
+    padding: 7px;
+}
+#forumsubmit:hover
+{
+   
+    color: aliceblue;
+    background-color:#004049;
+    width: 100px;
+    transition-duration: .6s;
+    border-radius: 30px;
+    cursor: pointer;
+}
