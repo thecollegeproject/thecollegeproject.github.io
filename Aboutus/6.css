@@ -563,7 +563,7 @@ input::-webkit-calendar-picker-indicator {
     position: relative;
 }
 .pic1:hover{
-     box-shadow:2px 6px 10px black;
+     box-shadow:2px 6px 10px darkgrey;
     transition-duration: 0.5s;
 }
 .content {
@@ -576,7 +576,7 @@ input::-webkit-calendar-picker-indicator {
 #div1{
    
     color:grey;
-    box-shadow: 2px 6px 10px black;
+    box-shadow: 2px 6px 10px grey;
     margin-top: 0.5px;
     background: white;
     padding-left: 20px;
@@ -595,7 +595,7 @@ input::-webkit-calendar-picker-indicator {
     padding-left: 20px;
     padding-right: 20px;
      background-color: white;
-     box-shadow: 2px 6px 10px black;
+     box-shadow: 2px 6px 10px grey;
    
    
    
