@@ -516,8 +516,8 @@ input::-webkit-calendar-picker-indicator {
         padding-top: 100px;
 		display: flex;
 	justify-content: space-around;
-	border: 2px solid  red;
-	 height: 200vh;
+	
+	 
     width:100%;
        
     }
@@ -529,9 +529,10 @@ input::-webkit-calendar-picker-indicator {
 
 }
 #div2{
-    
-	height: 500px;
-    width: 850px;
+    padding-left: 30px;
+    padding-right: 15px;
+	height: 596px;
+    width: 920px;
 	background-color: white;
      box-shadow: 2px 6px 10px grey;
     
@@ -543,6 +544,7 @@ input::-webkit-calendar-picker-indicator {
 background: white;
     margin-top: -14px;
         padding: 20px;
+        height: 940px;
         
     }
 #progress{
@@ -555,9 +557,30 @@ background: white;
 }
 #bar{
     width: 90%;
-    background:linear-gradient(aqua,green,black);
+    background:#009688;
 
     border-radius: 4%;
     text-align: center;
     
+}
+#work{
+   margin-left: -20px;
+    color: grey;
+}
+#div3{
+    padding-left: 30px;
+    padding-right: 15px;
+    margin-left: -30px;
+    margin-top:40px;
+	height: 500px;
+    width: inherit;
+	background-color: white;
+     box-shadow: 2px 6px 10px grey;
+    
+}
+h3{
+    color: darkgrey;
+}
+h4{
+    color: mediumseagreen
 }
