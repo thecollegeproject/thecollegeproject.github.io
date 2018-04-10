@@ -512,42 +512,93 @@ input::-webkit-calendar-picker-indicator {
 
         
     }
-    #div0{
-        padding-top: 100px;
+
+    #container1{
+        padding: 100px;
 		display: flex;
+        flex-direction: row;
 	justify-content: space-around;
-	
+	width: 100%;
+      
 	 
-    width:100%;
+   
        
     }
-#div1{
-    display: flex;
-	flex-direction: column;
-    color:grey;
-    box-shadow: 2px 6px 10px grey;
 
-}
-#div2{
-    padding-left: 30px;
-    padding-right: 15px;
-	height: 596px;
-    width: 920px;
-	background-color: white;
-     box-shadow: 2px 6px 10px grey;
+    #container2{
+       margin-top: -50px;
+        padding-left: 100px;
+        padding-right: 100px;
+		display: flex;
+        flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+      
+	 
+   
+       
+    }
+#divp1{
+    display: flex;
+      flex-direction: column;
+	justify-content: space-around;
+   
+    width: 300px;
+    margin-left: -70px;
     
 }
+
+#div23{
+   	display: flex;
+    flex-direction: column;
+	justify-content: space-around;
+    width: 100%;
+    margin-right: -50px;
+   
+	
+}
+#pic1{
+     box-shadow: 2px 6px 10px black;
+    transition-duration: 0.5s;
+}
+#pic1:hover{
+     box-shadow:2px 6px 20px black;
+    transition-duration: 0.5s;
+}
+#div1{
+   
+    color:grey;
+    box-shadow: 2px 6px 10px black;
+    margin-top: 0.5px;
+    background: white;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+        
+        height: 980px;
+    width: 297;
+
+}
+
+#div2,#div3{
+      margin-left: 30px;
+    margin-right: -30px;
+    margin-top: -12px;
+    padding-left: 20px;
+    padding-right: 20px;
+     background-color: white;
+     box-shadow: 2px 6px 10px black;
+   
+   
+   
+   
+  
+}
+
     #font{
         color: darkcyan;
     }
-    #belpro1{
-background: white;
-    margin-top: -14px;
-        padding: 20px;
-        height: 940px;
-        
-    }
-#progress{
+   #progress{
     background: lightgrey;
     width: 100%;
      border-radius: 4%;
@@ -564,23 +615,15 @@ background: white;
     
 }
 #work{
-   margin-left: -20px;
+
     color: grey;
 }
-#div3{
-    padding-left: 30px;
-    padding-right: 15px;
-    margin-left: -30px;
-    margin-top:40px;
-	height: 500px;
-    width: inherit;
-	background-color: white;
-     box-shadow: 2px 6px 10px grey;
-    
-}
+
 h3{
     color: darkgrey;
 }
 h4{
-    color: mediumseagreen
+    color:#1F9688;
 }
+
+
