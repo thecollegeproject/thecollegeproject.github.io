@@ -119,7 +119,30 @@ document.getElementById("dlo").innerHTML=document.getElementById("hsu").innerHTM
 function signin(){
 document.getElementById("dlo").innerHTML=document.getElementById("hsi").innerHTML;
 }
+function submi(){
+	
+	 var x = document.getElementById("usu").value;
+	 if(x.length <=8)
+	 {
+	 		document.getElementById("usu").style.border="2px solid red";
+	 		document.getElementById("usu").value="wrong input";
+	 	
 
+	 }
+	 if(x.length >=8){
+	 for (var i = 0; i < x.length; i++) {
+	 	if((x.charCodeAt(i)>=65 && x.charCodeAt(i)<=90)|| (x.charCodeAt(i)>=97 && x.charCodeAt(i)<=122) || x.charAt(i)=='_' || (x.charAt(i)>=0 && x.charAt(i)<=9))
+	 		{
+	 			document.getElementById("usu").style.borderBottom="2px solid green";
+	 		}
+	 	
+	 	else 
+	 		alert("wrong");
+}
+	 	
+}
+
+}
 function colormenu(e)
 {
 
