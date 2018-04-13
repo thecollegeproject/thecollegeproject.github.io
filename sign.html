@@ -7,6 +7,22 @@
 
 	<script src="script.js"></script>
 	<link rel="stylesheet" href="style.css">
+	<style>
+        @media only screen and (max-width:500px)
+        {
+    .sign,.sign2
+        {
+           transform: scale(.76);
+        }
+             #footer > a
+            {
+                transform: scale(.70);
+                height: 35px;
+                width: 35px;
+            }
+        }
+      
+    </style>
 </head>
 <body onload="option2(),slidestop(),togglemenu()">
 <div id="nav" class="nav">
@@ -44,8 +60,8 @@ background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, F
 	</div>
 	<div id="loginimg"></div>
 	<form action="" class="formflex">
-	<input type="text" autofocus placeholder="Username">
-	<input type="password" placeholder="Password">
+	<input type="text" autofocus placeholder="Username" id="usersignin">
+	<input type="password" id="passsignin" placeholder="Password">
 	<input type="submit" value="Sign In">
 	</form>
 </div>
@@ -59,8 +75,8 @@ background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, F
 
 	<div id="loginimg"></div>
 	<form action="" class="formflex">	
-	<input type="text" autofocus placeholder="Username">
-	<input type="password" placeholder="Password">
+	<input type="text" autofocus placeholder="Username" id="usersignin">
+	<input type="password" id="passsignin" placeholder="Password">
 	<input type="submit" value="Sign In">
 	</form>
 </div>
@@ -73,9 +89,9 @@ background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, F
 	</div>
 	<div id="loginimg"></div>
 	<form action="" class="formflex">
-	<input type="text" autofocus placeholder="Username">
-	<input type="email" placeholder="Email">
-	<input type="password" placeholder="Password">
+	<input type="text" autofocus placeholder="Username" id="usersigup">
+	<input type="email" placeholder="Email" id="email">
+	<input type="password" placeholder="Password" id="passsingup">
 	<input type="submit" value="Signup">
 	</form>
 </div>
