@@ -100,12 +100,13 @@ input::-webkit-calendar-picker-indicator {
 	top: 0;
     z-index: 1;
 	box-shadow: 1px 2px 6px 1px grey;
+     transition-duration: .7s;
 
 }
 ::selection
 {
-    color: wheat;
-    background-color: brown;
+    color: #bcf8ff;
+    background-color:#3fb4b4;
 }
 .drop
 {
@@ -855,14 +856,15 @@ cursor: pointer;
 	
 	margin-top: 0px;
 	margin-left: 0px;
-	margin-bottom: 2vw;
+	margin-bottom:0;
 	margin-right: 10px;
 	font-size: 1.3vw;
+    background-color: #f7f7f7;
 	color: #705d34;
     padding-left: 10px;
     padding-bottom: 10px;
-    border: 1px solid lightgrey;
-    border-left: 10px solid #02646d;
+    
+    border-left: 1vw solid #02646d;
 }
 
 #imgtxt7 h2 a,#imgtxt8 h2 a,#imgtxt9 h2 a
@@ -1002,6 +1004,7 @@ h1
     cursor: pointer;
     font-size: 15px;
     font-weight:600;
+    
 }
 .profile >button:hover
 {
@@ -1013,14 +1016,17 @@ h1
 {
     width: 86%;
     height: auto;
-    border:1px solid black;
+    border:1.5px solid grey;
     padding: 30px;
+    border-radius: 16px;
+    overflow: hidden;
 }
 .procon
 {
 height: 900px;
     font-size: 17px;
     color: #666666;
+    
 
 }
 #forumsubmit
