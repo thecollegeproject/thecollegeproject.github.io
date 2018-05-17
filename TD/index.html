@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TD</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	
+</head>
+<body>
+ <div id="block" class="block" onclick="menu1()">
+  
+	 </div>
+	 <div class="navbar" >
+        <div class="three" onclick="menu()"><img id="threerp" src="three.png" alt="Loading..."></img></div>
+	    <div class="sign" onclick="allUnset()"><img src="login1.png" class="icon1"> SignIn</div>
+	</div>
+	<div class="wrap" onclick="allUnset()">
+	
+	
+	<br>
+		<div class="list" >
+		    List Name
+			<input type="text" name="listItem" id="listItem" placeholder="New Item" autofocus onkeydown="etd(event)"><div class="plus" onclick="td()">+</div>
+			<ol id="toDoList">
+			</ol>
+		</div>
+		</div>
+	
+	
+	 <div id="copy1" style="display: none">
+	    <div id="menu"><br><br><br>
+	    <center><img src="login1.png" width="80" alt=""> <div>Mr. Kashif Wahaj</div></center>
+	    
+	     <div>List 1</div>
+	     <div>List 2</div>
+	 </div>
+	 </div>
+	 <div id="completed" class="plus completed" onclick="showCompleted()">C</div>
+   <div class="botlist" id="cList">
+       <ol id="completedList">
+            
+       </ol>
+   </div>
+    <script src="one.js"></script>
+</body>
+</html>
