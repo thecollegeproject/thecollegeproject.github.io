@@ -81,7 +81,7 @@
     flex-direction: row;
     width: 100%;
     background-color: black;
-    border: 2px solid purple;
+   
     margin-bottom: 2px;
     padding: 5px;
  z-index: 8;
@@ -209,7 +209,7 @@ display: none;
 */
 .block
 {
-    width:11px;
+    width:1px;
     position:fixed;
    margin-left: -6px;
     margin-bottom: -102px;
@@ -237,6 +237,8 @@ display: none;
     padding: 10px;
     padding-left: 20px;
     border: none;
+    margin-top: 5px;
+    
 }
 #menu div:hover
 {
@@ -244,13 +246,19 @@ display: none;
     cursor: pointer;
 }
 
-#menu div:first-child
+#menu div:nth-child(2)
 {
-    padding: 10px;
-    padding-left: 20px;
-    margin-top:60px; 
-    border: none;
-    
+      background-color: black;
+    color: white;
+    margin-left: -8px;
+    margin-right: -10px;
+}
+
+{
+      background-color: black;
+    color: white;
+    margin-left: -8px;
+    margin-right: -10px;
 }
 
 #menu img{
@@ -297,7 +305,7 @@ ol li:hover{
     position: fixed;
     width: 44px;
     left: 80vw;
-    top: 75vh;
+    top: 85vh;
     font-weight: normal;
     padding-top: 3px;
     padding-bottom: 3px;
@@ -343,4 +351,15 @@ bottom: 0;
 }
 #restore:hover{
     transform: scale(1.4);
+}
+
+.display
+{
+    position: absolute;
+    top: 600px;
+}
+.display1
+{
+    position: absolute;
+    top: 650px;
 }
