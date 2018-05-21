@@ -1,0 +1,58 @@
+.nbc li
+{
+    padding: 0px 10px;
+    margin-left: 4em;
+}
+.con
+{
+    background-color: #fff;
+    height: 100vh;
+
+}
+.shd
+        {
+            box-shadow: 0.1px 0.6px 4px 0.1px;
+        }
+
+body
+{
+    background: url(images/amazing-animal-beautiful-beautifull.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.fic input
+{
+    margin-top: 10px;
+    padding-left: 10px;
+    border: none;
+    font-size: 0.99em
+/*    outline: none;*/
+}
+.fic input:first-child
+{
+    font-size: 1.4em;
+    width: 170px;
+}
+
+.fic input:focus
+{
+    background-color: antiquewhite;
+}
+
+.fic2 input
+{
+     margin-top: 10px;
+    padding-left: 10px;
+    border: none;
+    width: 130px
+/*    outline: none;*/
+}
+
+.fic2 input:focus
+{
+    background-color: antiquewhite;
+}
+
+.rowHeight
+{
+    height: 200px;
+}
