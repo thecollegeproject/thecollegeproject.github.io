@@ -3,6 +3,14 @@
     padding: 0px 10px;
     margin-left: 4em;
 }
+.nvc
+{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1;
+   
+}
 .con
 {
     background-color: #fff;
@@ -61,20 +69,20 @@ body
 }
 .formc input
 {
-    width: 80px;
+    width: 70px;
    
 }
 .formc div:first-child input
 {
     width: 200px;
-    margin-left: 0;
+    
 }
 .formc,.formc input
 {
     background-color: black;
    
     color :white;
-    padding-left: 5px;
+  
     border: none;
     
 }
@@ -92,7 +100,7 @@ body
 
 .formd input
 {
-    width: 80px;
+    width: 70px;
    
 }
 .formd div:first-child input
@@ -102,17 +110,43 @@ body
 }
 .formd,.formd input
 {
-    background-color: antiquewhite;
    
+   font-size: 0.98em;
     margin-top: 10px;
     border: none;
-    padding-left: 5px;
+   
     
 }
 
-.formd input:focus
+.formd input:focus,.notes input:focus,.notestext input:focus
 {
     background-color: antiquewhite;
     color: black;
    
+}
+
+.bill div
+{
+    margin-top: 10px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.notes input
+{
+    color: darkslategray;
+    padding-left: 10px;
+    width: 100%;
+    border: none;
+    margin-bottom: 5px;
+    font-weight: 800;
+}
+.notestext input
+{
+     color: grey;
+    padding-left: 10px;
+    width: 100%;
+    border: none;
+    margin-bottom: 5px;
+    height: 50px;
 }
