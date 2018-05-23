@@ -1,195 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!--   pexels free imgs-->
     <meta charset="UTF-8">
    
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <title>Document</title>
     <style>
-    body
+        body
 {
-    background: url(images/amazing-animal-beautiful-beautifull.jpg) no-repeat center center fixed;
+    background: url(images/bg.png) no-repeat center center fixed;
     background-size: cover;
-}</style>
-    <title>GST</title>
+  //  font-family: 'Kaushan Script', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+ 
+    </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-info nvc">
-  <a class="navbar-brand" href="#">GST</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+ <nav class="navbar navbar-expand-sm  nvc">
+  <a class="navbar-brand text-light" href="#">GST</a>
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><img src="images/three.png" height="40" width="40" alt=""></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav m-auto nbc">
-      <li class="nav-item ">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item text-light">
+        <a class="nav-link  text-light" href="index.html">Home <span class="sr-only">(current)</span></a>
       </li>
-       <li class="nav-item dropdown ">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+       <li class="nav-item dropdown  ">
+        <a class="nav-link  text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           List
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="https://cbec-gst.gov.in/pdf/goods-rates-booklet-03July2017.pdf">GST on Goods</a>
-          <a class="dropdown-item" href="https://cbec-gst.gov.in/pdf/services-booklet-03July2017.pdf">GST on Services</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: transparent; border: 1px solid white;">
+          <a class="dropdown-item hoverbest text-light" href="https://cbec-gst.gov.in/pdf/goods-rates-booklet-03July2017.pdf" >GST on Goods</a>
+          <a class="dropdown-item hoverbest text-light" href="https://cbec-gst.gov.in/pdf/services-booklet-03July2017.pdf">GST on Services</a>
           
         </div>
       </li>
       <li class="nav-item dropdown active">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link  text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Categories
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">By Percentage</a>
-          <a class="dropdown-item" href="#">By List</a>
+        <div class="dropdown-menu " aria-labelledby="navbarDropdown" style="background-color: transparent; border: 1px solid white;">
+          <a class="dropdown-item text-light hoverbest" href="#">By Percentage</a>
+          <a class="dropdown-item text-light hoverbest" href="#">By List</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item bg-info text-light" href="#">Use Hybrid</a>
+          <a class="dropdown-item  text-light hoverbest" href="#">Use Hybrid</a>
         </div>
       </li>
     </ul>
    
   </div>
 </nav>
-   <form action="" class="form " >
-  <div class="row m-auto ">
-   <div class=" col-10 container con mt-5 pt-4 pl-4 shd  pb-4">
-   <div class="row  justify-content-between">
-       <div class="col-4 fic">
-         
-              <input type="text" name="" id="" placeholder="Your Company">
-              <input type="text" name="" id="" placeholder="Your Name">
-              <input type="text" name="" id="" placeholder="Company's  GSTIN">
-              <input type="text" name="" id="" placeholder="Company's Address">
-              <input type="text" name="" id="" placeholder="City">
-              <input type="text" name="" id="" placeholder="State">
-              <br>
-              <input type="text" name="" id="" placeholder="Country">
-              
-       </div>
-       <div class="col-5 fic">
-           <input type="text" placeholder="TAX INVOICE" name="" id="">
-       </div>
-   </div>
-   <br><br>
-   <div class="row  justify-content-between">
-        <div class="col-3 fic">
-                <b>Bill To:</b>
-              <input type="text" name="" id="" placeholder="Your Client's Company">
-              <input type="text" name="" id="" placeholder="Your Name">
-              <input type="text" name="" id="" placeholder="Client's  GSTIN">
-              <input type="text" name="" id="" placeholder="Client's Address">
-              <input type="text" name="" id="" placeholder="City">
-              <input type="text" name="" id="" placeholder="State">
-              <br>
-              <input type="text" name="" id="" placeholder="Country">
-              
-              <br>
-               <input type="text" name="" id="" placeholder="Place Of Supply">
-              
-              
-       </div>
-       <div class="col-6 fic2">
-       <div class="row ">
-       <div class="col-md-4 col-sm-5">
-           <input type="text" placeholder="Invoice#" name="" id="" value="Invoice#">
-           <input type="text" placeholder="Invoice Date" name="" id="" value="Invoice Date">
-           <input type="text" placeholder="Due Date" name="" id="" value="Due Date">
-       </div>
-       <div class="col-3 fic3">
-           <input type="text" placeholder="INV-12" name="" id="">
-          <input type="date" placeholder="date()">
-          <input type="date" placeholder="date()">
-          
-       </div>
-       </div>
-       </div>
-   </div>
-   </div>
-   </div>
-   <div class="container col-10 mb-4 pb-4 pt-4 con">
-       <div class="row m-auto pr-1 pt-1 pb-1 formc justify-content-around">
-           <div class="col-3"><input type="text" name="" id="" value="Item Description"></div>
-           <div class="col-1 "><input type="text" name="" id="" value="Qty"></div>
-           <div class="col-1"><input type="text" name="" id="" value="Rate"></div>
-           <div class="col-1"><input type="text" name="" id="" value="CGST"></div>
-           <div class="col-1"><input type="text" name="" id="" value="SGST"></div>
-           <div class="col-1"><input type="text" name="" id=""Cess value="Cess"></div>
-           <div class="col-1"><input type="text" name="" id=""Cess value="Amount"></div>
-       </div>
-        <div class="row m-auto pr-1 pt-1 pb-1 formd justify-content-around">
-           <div class="col-3"><input type="text" name="" id="" value="Brochure Design"></div>
-           <div class="col-1 "><input type="text" name="" id="" value="2"></div>
-           <div class="col-1"><input type="text" name="" id="" value="1000"></div>
-           <div class="col-1"><input type="text" name="" id="" value="10"></div>
-           <div class="col-1"><input type="text" name="" id="" value="10"></div>
-           <div class="col-1"><input type="text" name="" id=""Cess value="0"></div>
-           <div class="col-1"><input type="text" name="" id=""Cess value="200.0"></div>
-       </div> 
-          <hr>
-            <div class="row m-auto pr-1 pt-1 pb-1 formd justify-content-around">
-           <div class="col-3"><input type="text" name="" id="" value="Brochure Design"></div>
-           <div class="col-1 "><input type="text" name="" id="" value="3"></div>
-           <div class="col-1"><input type="text" name="" id="" value="1000"></div>
-           <div class="col-1"><input type="text" name="" id="" value="10"></div>
-           <div class="col-1"><input type="text" name="" id="" value="10"></div>
-           <div class="col-1"><input type="text" name="" id=""Cess value="0"></div>
-           <div class="col-1"><input type="text" name="" id=""Cess value="300.0"></div>
-       </div>
-       <hr> 
-      <div class="row justify-content-between bill">
-          <div class="col-3">
-           <a href="#">Add Line Item</a>
-      </div>
-      <div class="col-7 ">
-      <div class="row">
-          <div class="col-8">Sub Total</div>
-          <div class="col-4">200.0</div>
-      </div>
-       <div class="row">
-          <div class="col-8">SGST(10%)</div>
-          <div class="col-4">20.0</div>
-      </div>
-      <div class="row">
-          <div class="col-8">CGST(10%)</div>
-          <div class="col-4">20.0</div>
-      </div>
-      <div class="row bg-info text-light">
-          <div class="col-8">Total</div>
-          <div class="col-4">240.0</div>
-      </div>
-      
-      </div>
-      </div>
-      <br>
-      <div class="row">
-          <div class="col-10 notes">
-              <input class="" type="text" value="Notes" name="" id="">
-          </div>
-      </div>
-      <div class="row"> <div class="col-10 notestext">
-          <input type="text" name="" id="" value="It was great doing business with you.">
-      </div></div>
-      <br>
-      
-        <div class="row">
-          <div class="col-10 notes">
-              <input class="" type="text" value="Terms And Conditions" name="" id="">
-          </div>
-      </div>
-      <div class="row"> <div class="col-10 notestext">
-          <input type="text" name="" id="" value="Please make the payment by the due date.">
-      </div></div>
-   </div>
-   </form>
+ <div class="dropdown-divider"></div>
+<div class="container-fluid con3">
     
-   
+    <div class="jumbotron text-center">
+       <h1 class="display-4">GST Invoice Creator</h1>
+        <p class="lead">Here You Can Make Your Invoice Without Knowing About GST Rates.</p>
+        <p>Easy and fast way to create bills,invoice,etc.</p>
+        
+        <a href="gst.html" class="btn btn-outline-light btn-lg">Create Now!</a>
+    </div>
+    
+     
+</div>
 
-  
-   
  
-   
-    
+
+ 
+  
 </body>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
