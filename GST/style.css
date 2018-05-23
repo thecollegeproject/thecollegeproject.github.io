@@ -14,11 +14,7 @@
             box-shadow: 0.1px 0.6px 4px 0.1px;
         }
 
-body
-{
-    background: url(images/amazing-animal-beautiful-beautifull.jpg) no-repeat center center fixed;
-    background-size: cover;
-}
+
 .fic input
 {
     margin-top: 10px;
@@ -142,4 +138,23 @@ body
     border: none;
     margin-bottom: 5px;
     height: 50px;
+}
+
+
+.hoverbest:hover
+{
+    background-color: transparent;
+}
+.jumbotron
+{
+    background-color: transparent;
+    color: white;
+}
+.con3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 80vh;
+    
 }
